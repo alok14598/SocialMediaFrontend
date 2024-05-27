@@ -1,0 +1,95 @@
+.profileDetail{
+    display: flex;
+    flex-direction: column;
+
+    .userImages{
+            width: 100%;
+            position: relative;
+
+        .coverpic{
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .profilcepicinfo{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 130px;
+            left: 42%;
+            height: 230px;
+            width: 200px;
+            justify-content: center;
+            align-items: center;
+            .profilepic {
+              
+                
+                border-radius: 50%;
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+               
+                
+            }
+            span{
+                padding: 5px;
+                font-size: 15px;
+                color: rgb(90, 90, 90);
+            }
+        }
+    }
+    .profiledetailContainer{
+        margin-top: 20px;
+        height: 260px;
+        padding: 0px 10px;
+    width: calc(100% - 20px);
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .profileContainer{
+            display: flex;
+            height: 100%;
+            width: calc(100%  - 40px);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 5px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+
+            .leftprofile{
+                display: flex;
+                gap: 10px;
+            }
+            .center{
+                width: auto;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+               
+                .centerprofile{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                button{
+                    background-color:  rgba(0, 76, 255, 0.853);;
+                    padding: 5px 15px;
+                      color: white;
+                      border: none;
+                      border-radius: 5px;
+                      width: 100px;
+                      margin: auto;
+                      cursor: pointer;
+                }
+            }
+            .rightprofile{
+                display: flex;
+                gap: 10px;
+            }
+
+        }
+    }
+}

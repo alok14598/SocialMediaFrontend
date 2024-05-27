@@ -1,0 +1,63 @@
+.post{
+    padding: 20px;
+    
+    
+    .postContainer{
+        padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          
+
+    .usersection{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .leftsection{
+            display: flex;
+            gap:20px;
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+            .postdetails{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                cursor: pointer;
+
+                span{
+
+                }
+            }
+        }
+        .rightsection{
+            .detailicon{
+                cursor: pointer;
+            }
+        }
+    }
+    img {
+     
+        height: 400px;
+        width: 100%;
+        object-fit: contain;
+
+    }
+    .lastsection{
+        display: flex;
+        gap:20px;
+        padding: 0px 15px ;
+        margin-top: 15px;
+
+        .lastuserInfo{
+            display: flex;
+            cursor: pointer;
+            gap:5px;
+            font-size: 15px;
+            align-items: center;
+        }
+    }
+}
+    }
